@@ -1,21 +1,24 @@
-# Wymagaj CMake 3.15+
-cmake_minimum_required(VERSION 3.15...3.27)
-
-# Ustaw nazwę projektu na "sygnaly"
+cmake_minimum_required(VERSION 3.15)
 project(sygnaly LANGUAGES CXX)
 
-# Znajdź zależności
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 find_package(Python REQUIRED COMPONENTS Interpreter Development.Module)
-find_package(pybind11 CONFIG REQUIRED)
 
-# Dodaj naszą bibliotekę C++ jako moduł Pythona o nazwie "sygnaly"
-python_add_library(sygnaly MODULE src/main.cpp WITH_SOABI)
+add_subdirectory(extern/pybind11)
 
-# Połącz moduł z nagłówkami pybind11
-target_link_libraries(sygnaly PRIVATE pybind11::headers)
+add_subdirectory(extern/matplotplusplus)
 
-# Zainstaluj skompilowany moduł "sygnaly" w głównym folderze pakietu
+set(SOURCES src/main.cpp)
+
+pybind11_add_module(${PROJECT_NAME} ${SOURCES})
+
+target_link_libraries(${PROJECT_NAME} PRIVATE matplot)
+target_include_directories(${PROJECT_NAME} PRIVATE extern/matplotplusplus/source)
+
 install(
-  TARGETS sygnaly
-  DESTINATION ${PROJECT_NAME}
+  TARGETS ${PROJECT_NAME}
+  LIBRARY DESTINATION ${PROJECT_NAME}
+  RUNTIME DESTINATION ${PROJECT_NAME}
 )
