@@ -1,0 +1,787 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Wersja programu MSBuild 17.14.8+a7a4d5af0 dla .NET Framework
+      Kompilacja rozpocz─Ö┼éa si─Ö 31.05.2025 23:31:51.
+      
+      Projekt ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+      PrepareForBuild:
+        Tworzenie katalogu ÔÇ×Debug\\ÔÇŁ.
+        Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+        Tworzenie katalogu ÔÇ×Debug\\CompilerIdCXX.tlog\\ÔÇŁ.
+      InitializeBuildStatus:
+        Trwa tworzenie ÔÇ×Debug\\CompilerIdCXX.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+        Modyfikowanie ÔÇ×Debug\\CompilerIdCXX.tlog\\unsuccessfulbuildÔÇŁ.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Usuwanie pliku ÔÇ×Debug\\CompilerIdCXX.tlog\\unsuccessfulbuildÔÇŁ.
+        Modyfikowanie ÔÇ×Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstateÔÇŁ.
+      Kompilowanie projektu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe).
+      
+      Kompilacja powiod┼éa si─Ö.
+          Ostrze┼╝enia: 0
+          Liczba b┼é─Öd├│w: 0
+      
+      Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.45
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-840qna"
+      binary: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-840qna"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-840qna'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_68e71.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.14.8+a7a4d5af0 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 31.05.2025 23:31:51.
+        
+        Projekt ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-840qna\\cmTC_68e71.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu ÔÇ×cmTC_68e71.dir\\Debug\\ÔÇŁ.
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-840qna\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_68e71.dir\\Debug\\cmTC_68e71.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_68e71.dir\\Debug\\cmTC_68e71.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_68e71.dir\\Debug\\cmTC_68e71.tlog\\unsuccessfulbuildÔÇŁ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_68e71.dir\\Debug\\\\" /Fd"cmTC_68e71.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.44.35207.1 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_68e71.dir\\Debug\\\\" /Fd"cmTC_68e71.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-840qna\\Debug\\cmTC_68e71.exe" /INCREMENTAL /ILK:"cmTC_68e71.dir\\Debug\\cmTC_68e71.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-840qna/Debug/cmTC_68e71.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-840qna/Debug/cmTC_68e71.lib" /MACHINE:X64  /machine:x64 cmTC_68e71.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_68e71.vcxproj -> C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-840qna\\Debug\\cmTC_68e71.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku ÔÇ×cmTC_68e71.dir\\Debug\\cmTC_68e71.tlog\\unsuccessfulbuildÔÇŁ.
+          Modyfikowanie ÔÇ×cmTC_68e71.dir\\Debug\\cmTC_68e71.tlog\\cmTC_68e71.lastbuildstateÔÇŁ.
+        Kompilowanie projektu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-840qna\\cmTC_68e71.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe).
+        
+        Kompilacja powiod┼éa si─Ö.
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 0
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.40
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35207.1
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "extern/pybind11/tools/pybind11Common.cmake:321 (check_cxx_compiler_flag)"
+      - "extern/pybind11/tools/pybind11Common.cmake:388 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "extern/pybind11/tools/pybind11Common.cmake:422 (_pybind11_generate_lto)"
+      - "extern/pybind11/CMakeLists.txt:296 (include)"
+    checks:
+      - "Performing Test HAS_MSVC_GL_LTCG"
+    directories:
+      source: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-ww2i2s"
+      binary: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-ww2i2s"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAS_MSVC_GL_LTCG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-ww2i2s'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_96ae9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.14.8+a7a4d5af0 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 31.05.2025 23:31:53.
+        
+        Projekt ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ww2i2s\\cmTC_96ae9.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu ÔÇ×cmTC_96ae9.dir\\Debug\\ÔÇŁ.
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ww2i2s\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_96ae9.dir\\Debug\\cmTC_96ae9.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_96ae9.dir\\Debug\\cmTC_96ae9.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_96ae9.dir\\Debug\\cmTC_96ae9.tlog\\unsuccessfulbuildÔÇŁ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_96ae9.dir\\Debug\\\\" /Fd"cmTC_96ae9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ww2i2s\\src.cxx"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.44.35207.1 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_96ae9.dir\\Debug\\\\" /Fd"cmTC_96ae9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ww2i2s\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ww2i2s\\Debug\\cmTC_96ae9.exe" /INCREMENTAL /ILK:"cmTC_96ae9.dir\\Debug\\cmTC_96ae9.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-ww2i2s/Debug/cmTC_96ae9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-ww2i2s/Debug/cmTC_96ae9.lib" /MACHINE:X64  /machine:x64 cmTC_96ae9.dir\\Debug\\src.obj
+        LINK : warning LNK4075: zignorowano opcj─Ö "/INCREMENTAL" z powodu okre┼Ťlenia opcji "/LTCG" [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ww2i2s\\cmTC_96ae9.vcxproj]
+          Trwa generowanie kodu
+          Zako┼äczono generowanie kodu
+          cmTC_96ae9.vcxproj -> C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ww2i2s\\Debug\\cmTC_96ae9.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku ÔÇ×cmTC_96ae9.dir\\Debug\\cmTC_96ae9.tlog\\unsuccessfulbuildÔÇŁ.
+          Modyfikowanie ÔÇ×cmTC_96ae9.dir\\Debug\\cmTC_96ae9.tlog\\cmTC_96ae9.lastbuildstateÔÇŁ.
+        Kompilowanie projektu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ww2i2s\\cmTC_96ae9.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe).
+        
+        Kompilacja powiod┼éa si─Ö.
+        
+        ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ww2i2s\\cmTC_96ae9.vcxprojÔÇŁ (domy┼Ťlny element docelowy) (1)->
+        (element docelowy Link) -> 
+          LINK : warning LNK4075: zignorowano opcj─Ö "/INCREMENTAL" z powodu okre┼Ťlenia opcji "/LTCG" [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ww2i2s\\cmTC_96ae9.vcxproj]
+        
+            Ostrze┼╝enia: 1
+            Liczba b┼é─Öd├│w: 0
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.43
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "extern/matplotplusplus/CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Wersja programu MSBuild 17.14.8+a7a4d5af0 dla .NET Framework
+      Kompilacja rozpocz─Ö┼éa si─Ö 31.05.2025 23:31:53.
+      
+      Projekt ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdC\\CompilerIdC.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+      PrepareForBuild:
+        Tworzenie katalogu ÔÇ×Debug\\ÔÇŁ.
+        Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+        Tworzenie katalogu ÔÇ×Debug\\CompilerIdC.tlog\\ÔÇŁ.
+      InitializeBuildStatus:
+        Trwa tworzenie ÔÇ×Debug\\CompilerIdC.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+        Modyfikowanie ÔÇ×Debug\\CompilerIdC.tlog\\unsuccessfulbuildÔÇŁ.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Usuwanie pliku ÔÇ×Debug\\CompilerIdC.tlog\\unsuccessfulbuildÔÇŁ.
+        Modyfikowanie ÔÇ×Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstateÔÇŁ.
+      Kompilowanie projektu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdC\\CompilerIdC.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe).
+      
+      Kompilacja powiod┼éa si─Ö.
+          Ostrze┼╝enia: 0
+          Liczba b┼é─Öd├│w: 0
+      
+      Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.41
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/3.31.6-msvc6/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "extern/matplotplusplus/CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-6uoukq"
+      binary: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-6uoukq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-6uoukq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_16d6f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.14.8+a7a4d5af0 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 31.05.2025 23:31:54.
+        
+        Projekt ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6uoukq\\cmTC_16d6f.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu ÔÇ×cmTC_16d6f.dir\\Debug\\ÔÇŁ.
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6uoukq\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_16d6f.dir\\Debug\\cmTC_16d6f.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_16d6f.dir\\Debug\\cmTC_16d6f.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_16d6f.dir\\Debug\\cmTC_16d6f.tlog\\unsuccessfulbuildÔÇŁ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16d6f.dir\\Debug\\\\" /Fd"cmTC_16d6f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.44.35207.1 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16d6f.dir\\Debug\\\\" /Fd"cmTC_16d6f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6uoukq\\Debug\\cmTC_16d6f.exe" /INCREMENTAL /ILK:"cmTC_16d6f.dir\\Debug\\cmTC_16d6f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-6uoukq/Debug/cmTC_16d6f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-6uoukq/Debug/cmTC_16d6f.lib" /MACHINE:X64  /machine:x64 cmTC_16d6f.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_16d6f.vcxproj -> C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6uoukq\\Debug\\cmTC_16d6f.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku ÔÇ×cmTC_16d6f.dir\\Debug\\cmTC_16d6f.tlog\\unsuccessfulbuildÔÇŁ.
+          Modyfikowanie ÔÇ×cmTC_16d6f.dir\\Debug\\cmTC_16d6f.tlog\\cmTC_16d6f.lastbuildstateÔÇŁ.
+        Kompilowanie projektu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6uoukq\\cmTC_16d6f.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe).
+        
+        Kompilacja powiod┼éa si─Ö.
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 0
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.41
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "extern/matplotplusplus/CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "extern/matplotplusplus/CMakeLists.txt:7 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35207.1
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindBLAS.cmake:379 (check_function_exists)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindBLAS.cmake:423 (check_blas_libraries)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "extern/matplotplusplus/source/3rd_party/CMakeLists.txt:96 (find_package)"
+    checks:
+      - "Looking for sgemm_"
+    directories:
+      source: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-jop6cq"
+      binary: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-jop6cq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/extern/matplotplusplus/cmake"
+    buildResult:
+      variable: "BLAS_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-jop6cq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_eaf83.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.14.8+a7a4d5af0 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 31.05.2025 23:31:55.
+        
+        Projekt ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jop6cq\\cmTC_eaf83.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu ÔÇ×cmTC_eaf83.dir\\Debug\\ÔÇŁ.
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jop6cq\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_eaf83.dir\\Debug\\cmTC_eaf83.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_eaf83.dir\\Debug\\cmTC_eaf83.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_eaf83.dir\\Debug\\cmTC_eaf83.tlog\\unsuccessfulbuildÔÇŁ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sgemm_ /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eaf83.dir\\Debug\\\\" /Fd"cmTC_eaf83.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jop6cq\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.44.35207.1 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sgemm_ /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eaf83.dir\\Debug\\\\" /Fd"cmTC_eaf83.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jop6cq\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jop6cq\\Debug\\cmTC_eaf83.exe" /INCREMENTAL /ILK:"cmTC_eaf83.dir\\Debug\\cmTC_eaf83.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-jop6cq/Debug/cmTC_eaf83.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-jop6cq/Debug/cmTC_eaf83.lib" /MACHINE:X64  /machine:x64 cmTC_eaf83.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: nierozpoznany symbol zewn─Ötrzny sgemm_ przywo┼éany w funkcji main [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jop6cq\\cmTC_eaf83.vcxproj]
+        C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jop6cq\\Debug\\cmTC_eaf83.exe : fatal error LNK1120: liczba nierozpoznanych element├│w zewn─Ötrznych: 1 [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jop6cq\\cmTC_eaf83.vcxproj]
+        Kompilowanie projektu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jop6cq\\cmTC_eaf83.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe) ÔÇö NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIOD┼üA SI─ś.
+        
+        ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jop6cq\\cmTC_eaf83.vcxprojÔÇŁ (domy┼Ťlny element docelowy) (1)->
+        (element docelowy Link) -> 
+          CheckFunctionExists.obj : error LNK2019: nierozpoznany symbol zewn─Ötrzny sgemm_ przywo┼éany w funkcji main [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jop6cq\\cmTC_eaf83.vcxproj]
+          C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jop6cq\\Debug\\cmTC_eaf83.exe : fatal error LNK1120: liczba nierozpoznanych element├│w zewn─Ötrznych: 1 [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jop6cq\\cmTC_eaf83.vcxproj]
+        
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 2
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.37
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindBLAS.cmake:475 (find_package)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "extern/matplotplusplus/source/3rd_party/CMakeLists.txt:96 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-gnvzxb"
+      binary: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-gnvzxb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/extern/matplotplusplus/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-gnvzxb'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6c7a4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.14.8+a7a4d5af0 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 31.05.2025 23:31:55.
+        
+        Projekt ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gnvzxb\\cmTC_6c7a4.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu ÔÇ×cmTC_6c7a4.dir\\Debug\\ÔÇŁ.
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gnvzxb\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_6c7a4.dir\\Debug\\cmTC_6c7a4.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_6c7a4.dir\\Debug\\cmTC_6c7a4.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_6c7a4.dir\\Debug\\cmTC_6c7a4.tlog\\unsuccessfulbuildÔÇŁ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6c7a4.dir\\Debug\\\\" /Fd"cmTC_6c7a4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gnvzxb\\src.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.44.35207.1 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6c7a4.dir\\Debug\\\\" /Fd"cmTC_6c7a4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gnvzxb\\src.c"
+          src.c
+        C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gnvzxb\\src.c(1,10): error C1083: Nie mo┼╝na otworzy─ç pliku do┼é─ůcz: 'pthread.h': No such file or directory [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gnvzxb\\cmTC_6c7a4.vcxproj]
+        Kompilowanie projektu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gnvzxb\\cmTC_6c7a4.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe) ÔÇö NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIOD┼üA SI─ś.
+        
+        ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gnvzxb\\cmTC_6c7a4.vcxprojÔÇŁ (domy┼Ťlny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gnvzxb\\src.c(1,10): error C1083: Nie mo┼╝na otworzy─ç pliku do┼é─ůcz: 'pthread.h': No such file or directory [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gnvzxb\\cmTC_6c7a4.vcxproj]
+        
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 1
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.25
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindBLAS.cmake:475 (find_package)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "extern/matplotplusplus/source/3rd_party/CMakeLists.txt:96 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-cdey7j"
+      binary: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-cdey7j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/extern/matplotplusplus/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-cdey7j'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d9505.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.14.8+a7a4d5af0 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 31.05.2025 23:31:56.
+        
+        Projekt ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cdey7j\\cmTC_d9505.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu ÔÇ×cmTC_d9505.dir\\Debug\\ÔÇŁ.
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cdey7j\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_d9505.dir\\Debug\\cmTC_d9505.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_d9505.dir\\Debug\\cmTC_d9505.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_d9505.dir\\Debug\\cmTC_d9505.tlog\\unsuccessfulbuildÔÇŁ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d9505.dir\\Debug\\\\" /Fd"cmTC_d9505.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cdey7j\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.44.35207.1 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d9505.dir\\Debug\\\\" /Fd"cmTC_d9505.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cdey7j\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cdey7j\\Debug\\cmTC_d9505.exe" /INCREMENTAL /ILK:"cmTC_d9505.dir\\Debug\\cmTC_d9505.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-cdey7j/Debug/cmTC_d9505.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-cdey7j/Debug/cmTC_d9505.lib" /MACHINE:X64  /machine:x64 cmTC_d9505.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: nie mo┼╝na otworzy─ç pliku "pthreads.lib" [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cdey7j\\cmTC_d9505.vcxproj]
+        Kompilowanie projektu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cdey7j\\cmTC_d9505.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe) ÔÇö NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIOD┼üA SI─ś.
+        
+        ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cdey7j\\cmTC_d9505.vcxprojÔÇŁ (domy┼Ťlny element docelowy) (1)->
+        (element docelowy Link) -> 
+          LINK : fatal error LNK1104: nie mo┼╝na otworzy─ç pliku "pthreads.lib" [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cdey7j\\cmTC_d9505.vcxproj]
+        
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 1
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.32
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindBLAS.cmake:475 (find_package)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "extern/matplotplusplus/source/3rd_party/CMakeLists.txt:96 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-cdvjhp"
+      binary: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-cdvjhp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/extern/matplotplusplus/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-cdvjhp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e542d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.14.8+a7a4d5af0 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 31.05.2025 23:31:56.
+        
+        Projekt ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cdvjhp\\cmTC_e542d.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu ÔÇ×cmTC_e542d.dir\\Debug\\ÔÇŁ.
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cdvjhp\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_e542d.dir\\Debug\\cmTC_e542d.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_e542d.dir\\Debug\\cmTC_e542d.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_e542d.dir\\Debug\\cmTC_e542d.tlog\\unsuccessfulbuildÔÇŁ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e542d.dir\\Debug\\\\" /Fd"cmTC_e542d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cdvjhp\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.44.35207.1 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e542d.dir\\Debug\\\\" /Fd"cmTC_e542d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cdvjhp\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cdvjhp\\Debug\\cmTC_e542d.exe" /INCREMENTAL /ILK:"cmTC_e542d.dir\\Debug\\cmTC_e542d.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-cdvjhp/Debug/cmTC_e542d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-cdvjhp/Debug/cmTC_e542d.lib" /MACHINE:X64  /machine:x64 cmTC_e542d.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: nie mo┼╝na otworzy─ç pliku "pthread.lib" [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cdvjhp\\cmTC_e542d.vcxproj]
+        Kompilowanie projektu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cdvjhp\\cmTC_e542d.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe) ÔÇö NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIOD┼üA SI─ś.
+        
+        ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cdvjhp\\cmTC_e542d.vcxprojÔÇŁ (domy┼Ťlny element docelowy) (1)->
+        (element docelowy Link) -> 
+          LINK : fatal error LNK1104: nie mo┼╝na otworzy─ç pliku "pthread.lib" [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cdvjhp\\cmTC_e542d.vcxproj]
+        
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 1
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.33
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckSourceCompiles.cmake:89 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/GenerateExportHeader.cmake:206 (check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/GenerateExportHeader.cmake:263 (_check_cxx_compiler_attribute)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/GenerateExportHeader.cmake:420 (_test_compiler_has_deprecated)"
+      - "extern/matplotplusplus/source/matplot/CMakeLists.txt:105 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
+    directories:
+      source: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-o2h0ts"
+      binary: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-o2h0ts"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/extern/matplotplusplus/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_ATTR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-o2h0ts'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_70996.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.14.8+a7a4d5af0 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 31.05.2025 23:31:57.
+        
+        Projekt ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\cmTC_70996.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu ÔÇ×cmTC_70996.dir\\Debug\\ÔÇŁ.
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_70996.dir\\Debug\\cmTC_70996.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_70996.dir\\Debug\\cmTC_70996.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_70996.dir\\Debug\\cmTC_70996.tlog\\unsuccessfulbuildÔÇŁ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_70996.dir\\Debug\\\\" /Fd"cmTC_70996.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\src.cxx"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.44.35207.1 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_70996.dir\\Debug\\\\" /Fd"cmTC_70996.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\src.cxx"
+          src.cxx
+        C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\src.cxx(1,16): error C2065: "__deprecated__": niezadeklarowany identyfikator [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\cmTC_70996.vcxproj]
+        C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\src.cxx(1,1): error C4430: brak specyfikatora typu - za┼éo┼╝ono, ┼╝e int. Uwaga: C++ nie obs┼éuguje domy┼Ťlnie typu int [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\cmTC_70996.vcxproj]
+        C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\src.cxx(1,33): error C2062: nieoczekiwany typ "int" [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\cmTC_70996.vcxproj]
+        C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\src.cxx(1,48): error C2143: b┼é─ůd sk┼éadniowy: brakuje ÔÇ×;ÔÇŁ przed ÔÇ×{ÔÇŁ [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\cmTC_70996.vcxproj]
+        C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\src.cxx(1,48): error C2447: "{": brak nag┼é├│wka funkcji (stary styl formalnej listy?) [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\cmTC_70996.vcxproj]
+        C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\src.cxx(2,25): error C3861: "somefunc": identyfikatora nie odnaleziono [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\cmTC_70996.vcxproj]
+        Kompilowanie projektu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\cmTC_70996.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe) ÔÇö NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIOD┼üA SI─ś.
+        
+        ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\cmTC_70996.vcxprojÔÇŁ (domy┼Ťlny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\src.cxx(1,16): error C2065: "__deprecated__": niezadeklarowany identyfikator [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\cmTC_70996.vcxproj]
+          C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\src.cxx(1,1): error C4430: brak specyfikatora typu - za┼éo┼╝ono, ┼╝e int. Uwaga: C++ nie obs┼éuguje domy┼Ťlnie typu int [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\cmTC_70996.vcxproj]
+          C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\src.cxx(1,33): error C2062: nieoczekiwany typ "int" [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\cmTC_70996.vcxproj]
+          C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\src.cxx(1,48): error C2143: b┼é─ůd sk┼éadniowy: brakuje ÔÇ×;ÔÇŁ przed ÔÇ×{ÔÇŁ [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\cmTC_70996.vcxproj]
+          C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\src.cxx(1,48): error C2447: "{": brak nag┼é├│wka funkcji (stary styl formalnej listy?) [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\cmTC_70996.vcxproj]
+          C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\src.cxx(2,25): error C3861: "somefunc": identyfikatora nie odnaleziono [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o2h0ts\\cmTC_70996.vcxproj]
+        
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 6
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.30
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckSourceCompiles.cmake:89 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/GenerateExportHeader.cmake:206 (check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/GenerateExportHeader.cmake:269 (_check_cxx_compiler_attribute)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/GenerateExportHeader.cmake:420 (_test_compiler_has_deprecated)"
+      - "extern/matplotplusplus/source/matplot/CMakeLists.txt:105 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED"
+    directories:
+      source: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-f1vewf"
+      binary: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-f1vewf"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/extern/matplotplusplus/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-f1vewf'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e5bec.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.14.8+a7a4d5af0 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 31.05.2025 23:31:58.
+        
+        Projekt ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1vewf\\cmTC_e5bec.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu ÔÇ×cmTC_e5bec.dir\\Debug\\ÔÇŁ.
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1vewf\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_e5bec.dir\\Debug\\cmTC_e5bec.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_e5bec.dir\\Debug\\cmTC_e5bec.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_e5bec.dir\\Debug\\cmTC_e5bec.tlog\\unsuccessfulbuildÔÇŁ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_e5bec.dir\\Debug\\\\" /Fd"cmTC_e5bec.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1vewf\\src.cxx"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.44.35207.1 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_e5bec.dir\\Debug\\\\" /Fd"cmTC_e5bec.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1vewf\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1vewf\\Debug\\cmTC_e5bec.exe" /INCREMENTAL /ILK:"cmTC_e5bec.dir\\Debug\\cmTC_e5bec.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-f1vewf/Debug/cmTC_e5bec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-f1vewf/Debug/cmTC_e5bec.lib" /MACHINE:X64  /machine:x64 cmTC_e5bec.dir\\Debug\\src.obj
+          cmTC_e5bec.vcxproj -> C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1vewf\\Debug\\cmTC_e5bec.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku ÔÇ×cmTC_e5bec.dir\\Debug\\cmTC_e5bec.tlog\\unsuccessfulbuildÔÇŁ.
+          Modyfikowanie ÔÇ×cmTC_e5bec.dir\\Debug\\cmTC_e5bec.tlog\\cmTC_e5bec.lastbuildstateÔÇŁ.
+        Kompilowanie projektu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1vewf\\cmTC_e5bec.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe).
+        
+        Kompilacja powiod┼éa si─Ö.
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 0
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.46
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "extern/matplotplusplus/source/matplot/CMakeLists.txt:141 (check_symbol_exists)"
+    checks:
+      - "Looking for __fbufsize"
+    directories:
+      source: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-cfzyh8"
+      binary: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-cfzyh8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/extern/matplotplusplus/cmake"
+    buildResult:
+      variable: "HAVE_FBUFSIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/CMakeScratch/TryCompile-cfzyh8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_342de.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.14.8+a7a4d5af0 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 31.05.2025 23:31:59.
+        
+        Projekt ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cfzyh8\\cmTC_342de.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu ÔÇ×cmTC_342de.dir\\Debug\\ÔÇŁ.
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cfzyh8\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_342de.dir\\Debug\\cmTC_342de.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_342de.dir\\Debug\\cmTC_342de.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_342de.dir\\Debug\\cmTC_342de.tlog\\unsuccessfulbuildÔÇŁ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_342de.dir\\Debug\\\\" /Fd"cmTC_342de.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cfzyh8\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.44.35207.1 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_342de.dir\\Debug\\\\" /Fd"cmTC_342de.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cfzyh8\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cfzyh8\\CheckSymbolExists.c(2,10): error C1083: Nie mo┼╝na otworzy─ç pliku do┼é─ůcz: 'stdio_ext.h': No such file or directory [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cfzyh8\\cmTC_342de.vcxproj]
+        Kompilowanie projektu ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cfzyh8\\cmTC_342de.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe) ÔÇö NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIOD┼üA SI─ś.
+        
+        ÔÇ×C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cfzyh8\\cmTC_342de.vcxprojÔÇŁ (domy┼Ťlny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cfzyh8\\CheckSymbolExists.c(2,10): error C1083: Nie mo┼╝na otworzy─ç pliku do┼é─ůcz: 'stdio_ext.h': No such file or directory [C:\\Users\\Arkadiusz\\Downloads\\TP_Projekt3_Sygnaly_JuliaArkadiusz\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cfzyh8\\cmTC_342de.vcxproj]
+        
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 1
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.25
+        
+      exitCode: 1
+...

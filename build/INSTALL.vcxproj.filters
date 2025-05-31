@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Arkadiusz\Downloads\TP_Projekt3_Sygnaly_JuliaArkadiusz\build\CMakeFiles\8d7a6234e31086eeff12f8443f29e5d8\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FF13D183-7B28-3C3C-92C1-C3DAD7932D35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

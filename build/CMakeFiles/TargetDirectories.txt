@@ -1,0 +1,13 @@
+C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/sygnaly.dir
+C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/INSTALL.dir
+C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/extern/pybind11/CMakeFiles/INSTALL.dir
+C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/extern/pybind11/CMakeFiles/ALL_BUILD.dir
+C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/extern/matplotplusplus/CMakeFiles/INSTALL.dir
+C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/extern/matplotplusplus/CMakeFiles/ALL_BUILD.dir
+C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/extern/matplotplusplus/source/CMakeFiles/INSTALL.dir
+C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/extern/matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir
+C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/extern/matplotplusplus/source/3rd_party/CMakeFiles/INSTALL.dir
+C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/extern/matplotplusplus/source/matplot/CMakeFiles/matplot.dir
+C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/extern/matplotplusplus/source/matplot/CMakeFiles/INSTALL.dir

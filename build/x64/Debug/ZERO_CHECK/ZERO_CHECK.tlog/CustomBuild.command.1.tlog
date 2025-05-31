@@ -1,0 +1,10 @@
+^C:\USERS\ARKADIUSZ\DOWNLOADS\TP_PROJEKT3_SYGNALY_JULIAARKADIUSZ\BUILD\CMAKEFILES\8D7A6234E31086EEFF12F8443F29E5D8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz -BC:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build/sygnaly.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,868 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-7cce6f7350974e55e1df.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						6
+					]
+				},
+				{
+					"build" : "extern/pybind11",
+					"jsonFile" : "directory-extern.pybind11-Debug-096d499037f0b83b6017.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "extern/pybind11",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "extern/matplotplusplus",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.matplotplusplus-Debug-43b1706942677cd7f1ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "extern/matplotplusplus",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "extern/matplotplusplus/source",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.matplotplusplus.source-Debug-ba64f3ae8dfa3a072877.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "extern/matplotplusplus/source"
+				},
+				{
+					"build" : "extern/matplotplusplus/source/3rd_party",
+					"jsonFile" : "directory-extern.matplotplusplus.source.3rd_party-Debug-b88b621b03ee261da484.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "extern/matplotplusplus/source/3rd_party",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "extern/matplotplusplus/source/matplot",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.matplotplusplus.source.matplot-Debug-c0ced3c90957c176df6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "extern/matplotplusplus/source/matplot",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sygnaly",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "pybind11",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "Matplot++",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-001660b7ce46607d1e6a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@de7a35c2974616aed472",
+					"jsonFile" : "target-ALL_BUILD-Debug-93be6ef25e987ecc081d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@bf52a4369d22103ffef6",
+					"jsonFile" : "target-ALL_BUILD-Debug-f518c2326e1454128f6f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-306d9a6681b7e1123873.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "matplot::@ea97c2ea625cf0aa4f2b",
+					"jsonFile" : "target-matplot-Debug-ea61bc18eea707636d6a.json",
+					"name" : "matplot",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "nodesoup::@0668262e7814d4bd7595",
+					"jsonFile" : "target-nodesoup-Debug-3468b4190d3ed43f36af.json",
+					"name" : "nodesoup",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sygnaly::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sygnaly-Debug-62aec55f518e548ac059.json",
+					"name" : "sygnaly",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-11ff52eb93e7f14f5def.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						6
+					]
+				},
+				{
+					"build" : "extern/pybind11",
+					"jsonFile" : "directory-extern.pybind11-Release-096d499037f0b83b6017.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "extern/pybind11",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "extern/matplotplusplus",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.matplotplusplus-Release-43b1706942677cd7f1ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "extern/matplotplusplus",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "extern/matplotplusplus/source",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.matplotplusplus.source-Release-ba64f3ae8dfa3a072877.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "extern/matplotplusplus/source"
+				},
+				{
+					"build" : "extern/matplotplusplus/source/3rd_party",
+					"jsonFile" : "directory-extern.matplotplusplus.source.3rd_party-Release-b88b621b03ee261da484.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "extern/matplotplusplus/source/3rd_party",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "extern/matplotplusplus/source/matplot",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.matplotplusplus.source.matplot-Release-c0ced3c90957c176df6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "extern/matplotplusplus/source/matplot",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sygnaly",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "pybind11",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "Matplot++",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-001660b7ce46607d1e6a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@de7a35c2974616aed472",
+					"jsonFile" : "target-ALL_BUILD-Release-93be6ef25e987ecc081d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@bf52a4369d22103ffef6",
+					"jsonFile" : "target-ALL_BUILD-Release-f518c2326e1454128f6f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-306d9a6681b7e1123873.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "matplot::@ea97c2ea625cf0aa4f2b",
+					"jsonFile" : "target-matplot-Release-43a2fb49b08721f0a29c.json",
+					"name" : "matplot",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "nodesoup::@0668262e7814d4bd7595",
+					"jsonFile" : "target-nodesoup-Release-650d4baa3a41d89a2689.json",
+					"name" : "nodesoup",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sygnaly::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sygnaly-Release-d2f4b7686a1872a50e27.json",
+					"name" : "sygnaly",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-51996a4248e20856fca0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						6
+					]
+				},
+				{
+					"build" : "extern/pybind11",
+					"jsonFile" : "directory-extern.pybind11-MinSizeRel-096d499037f0b83b6017.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "extern/pybind11",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "extern/matplotplusplus",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.matplotplusplus-MinSizeRel-43b1706942677cd7f1ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "extern/matplotplusplus",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "extern/matplotplusplus/source",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.matplotplusplus.source-MinSizeRel-ba64f3ae8dfa3a072877.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "extern/matplotplusplus/source"
+				},
+				{
+					"build" : "extern/matplotplusplus/source/3rd_party",
+					"jsonFile" : "directory-extern.matplotplusplus.source.3rd_party-MinSizeRel-b88b621b03ee261da484.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "extern/matplotplusplus/source/3rd_party",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "extern/matplotplusplus/source/matplot",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.matplotplusplus.source.matplot-MinSizeRel-c0ced3c90957c176df6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "extern/matplotplusplus/source/matplot",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sygnaly",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "pybind11",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "Matplot++",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-001660b7ce46607d1e6a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@de7a35c2974616aed472",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-93be6ef25e987ecc081d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@bf52a4369d22103ffef6",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-f518c2326e1454128f6f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-306d9a6681b7e1123873.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "matplot::@ea97c2ea625cf0aa4f2b",
+					"jsonFile" : "target-matplot-MinSizeRel-bd8a86c89a3be741c286.json",
+					"name" : "matplot",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "nodesoup::@0668262e7814d4bd7595",
+					"jsonFile" : "target-nodesoup-MinSizeRel-afd03baccd0cf40ad674.json",
+					"name" : "nodesoup",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sygnaly::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sygnaly-MinSizeRel-84ac671b9b7122154db3.json",
+					"name" : "sygnaly",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-c399af9dfec97acc72d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						6
+					]
+				},
+				{
+					"build" : "extern/pybind11",
+					"jsonFile" : "directory-extern.pybind11-RelWithDebInfo-096d499037f0b83b6017.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "extern/pybind11",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "extern/matplotplusplus",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.matplotplusplus-RelWithDebInfo-43b1706942677cd7f1ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "extern/matplotplusplus",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "extern/matplotplusplus/source",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.matplotplusplus.source-RelWithDebInfo-ba64f3ae8dfa3a072877.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "extern/matplotplusplus/source"
+				},
+				{
+					"build" : "extern/matplotplusplus/source/3rd_party",
+					"jsonFile" : "directory-extern.matplotplusplus.source.3rd_party-RelWithDebInfo-b88b621b03ee261da484.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "extern/matplotplusplus/source/3rd_party",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "extern/matplotplusplus/source/matplot",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.matplotplusplus.source.matplot-RelWithDebInfo-c0ced3c90957c176df6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "extern/matplotplusplus/source/matplot",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sygnaly",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "pybind11",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "Matplot++",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-001660b7ce46607d1e6a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@de7a35c2974616aed472",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-93be6ef25e987ecc081d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@bf52a4369d22103ffef6",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-f518c2326e1454128f6f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-306d9a6681b7e1123873.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "matplot::@ea97c2ea625cf0aa4f2b",
+					"jsonFile" : "target-matplot-RelWithDebInfo-e4ef9bb6189ae0e10f5a.json",
+					"name" : "matplot",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "nodesoup::@0668262e7814d4bd7595",
+					"jsonFile" : "target-nodesoup-RelWithDebInfo-dad76065611d46d2e2ef.json",
+					"name" : "nodesoup",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sygnaly::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sygnaly-RelWithDebInfo-f4429611a824c5678def.json",
+					"name" : "sygnaly",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz/build",
+		"source" : "C:/Users/Arkadiusz/Downloads/TP_Projekt3_Sygnaly_JuliaArkadiusz"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
